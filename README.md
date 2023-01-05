@@ -28,10 +28,11 @@ In order to run the desired functionality within the program, you need to supply
 - `-index`: Boolean value, if set to true will index all newly-added rows. Set to false by default.
 
 Example usage:
+
 ```go run . -init=True -index=True -search=True```
 
  will populate the collection with 300,000 rows (by default), index the rows, perform search and log them.
- 
+
 ```go run . -drop=True```
 
  will drop the collection
