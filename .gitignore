@@ -20,4 +20,5 @@
 # Go workspace file
 go.work
 
-Benchmark/*
+Benchmark/GPU_IVF_Flat/300k/*
+Benchmark/IVF_Flat/
